@@ -1,5 +1,5 @@
 # gstreamer-webcam
-Partial implementation of a solution for streaming video and audio from a webcam to a webpage using GStreamer
+Partial implementation of a solution for streaming video and audio from a webcam to a webpage using GStreamer.
 
 There are two main parts in this repository:
 
