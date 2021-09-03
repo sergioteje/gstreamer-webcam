@@ -21,4 +21,6 @@ C:\gstreamer\1.0\msvc_x86_64\lib\glib-2.0\include;C:\gstreamer\1.0\msvc_x86_64\i
 
 In order for the web page to communicate with GStreamer, a server is needed to facilitate the retrieval of the streaming information. In this case, I propose the use of a NodeJS/Express server, whose main structure is included in the folder nodeJsServer. The main endpoints that would be used to get/send information to the GStreamer application are included. Unfortunately, its implementation are not coded due to a lack of time.
 
+This server can be run by executing the instruction "node stream_api.js" from the same path. Please make sure that the libraries "express", "http" and "net" are available. Otherwise, just execute "npm install [name of the library]" before starting the server.
+
 
