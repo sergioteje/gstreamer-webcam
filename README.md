@@ -11,11 +11,12 @@ Although it seems that the most widely used GStreamer element for this purpose i
 
 The code has been originally implemented in Microsoft Visual Studio. The dependencies with the GStreamer libraries has been therefore configured there. The whole Visual Studio project is included in this repository, in the folder called "webcamStreaming". The source files can be found under /webcamStreaming. It is two files called StreamingData.cpp and main.cpp. The compiled executable file is also included at the path "/x64/Debug/webcamStreaming.exe".
 
-In case the code wants to be compiled manually, a compiler like G++ can be used. The libraries glib-2.0 and gstreamer-1.0 must be added to the "included" files.
+In case the code wants to be compiled manually, a compiler like g++ can be used. The libraries glib-2.0 and gstreamer-1.0 must be added to the "included" files.
 
 For example, in my case, I have added the following configuration to the additional include directories of Visual Studio:
 
 C:\gstreamer\1.0\msvc_x86_64\lib\glib-2.0\include;C:\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0;C:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\;%(AdditionalIncludeDirectories)
+
 
 2 - NodeJS server for the communication between WebRTC and GStreamer.
 
