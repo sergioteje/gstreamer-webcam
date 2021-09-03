@@ -9,7 +9,7 @@ An application has been written in C++ in order to create a pipeline that shows 
 
 Although it seems that the most widely used GStreamer element for this purpose is "v4l2src", it is disabled since version 1.14 of GStreamer due to major bugs (https://gstreamer.freedesktop.org/documentation/video4linux2/v4l2src.html?gi-language=c). Because of this, the element "ksvideosrc" has been used instead.
 
-The code has been originally implemented in Microsoft Visual Studio. The dependencies with the GStreamer libraries has been therefore configured there. The whole Visual Studio project is included in this repository, in the folder called "webcamStreaming". It is two files called StreamingData.cpp and main.cpp. The compiled executable file is also included with the name "webcamStreaming.exe".
+The code has been originally implemented in Microsoft Visual Studio. The dependencies with the GStreamer libraries has been therefore configured there. The implemented files appear in the folder "webcamStreaming" and are called StreamingData.cpp and main.cpp. The compiled executable file is also included with the name "webcamStreaming.exe".
 
 In case the code wants to be compiled manually, a compiler like g++ can be used. The libraries glib-2.0 and gstreamer-1.0 must be added to the "included" files.
 
